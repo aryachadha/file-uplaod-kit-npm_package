@@ -1,0 +1,37 @@
+{
+  "name": "@aryachadha/file-upload-kit",
+  "version": "1.0.0",
+  "description": "Production-quality, modular, and secure file upload management library for Node.js.",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./express": "./src/middleware/express.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "test": "node --test",
+    "test:watch": "node --test --watch"
+  },
+  "keywords": [
+    "file-upload",
+    "upload",
+    "file-manager",
+    "uploader",
+    "multipart",
+    "validation",
+    "storage",
+    "express-middleware",
+    "security"
+  ],
+  "author": "",
+  "license": "MIT"
+}
